@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="contenedor">
+            <!-- NO ES NECESARIO DE FIELDSET Y DE LEGEND: son pocos parámetros a pedir en el formulario -->
+
+            <form class="formulario">
+                <span>Iniciar Sesión</span>
+
+                <label for="usuario">
+                    <input id="usuario" type="text" placeholder="Tu Usuario">
+                </label>
+
+                <label for="contrasena">
+                    <input id="contrasena" type="password" placeholder="Tu Contraseña">
+                </label>
+
+                <div class="formulario_utilidades">
+                    <div class="recordarme">
+                        <input type="checkbox" id="recordarme">
+                        <label for="recordarme">Recordarme</label>
+                    </div>
+
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+
+                <input class="formulario-submit" type="submit" value="Ingresar">
+
+                <span>¿No tienes una cuenta? <a href="#">Regístrate</a></span>
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

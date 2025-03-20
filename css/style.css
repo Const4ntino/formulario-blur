@@ -152,6 +152,7 @@ label {
 .recordarme {
     display: flex;
     align-items: center;
+    gap: .3rem;
 }
 
 .formulario_utilidades a { /* Olvidaste tu contraseña */

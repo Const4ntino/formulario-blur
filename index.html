@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preload" href="css/style.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,14 +19,14 @@
             <!-- NO ES NECESARIO DE FIELDSET Y DE LEGEND: son pocos parámetros a pedir en el formulario -->
 
             <form class="formulario">
-                <span>Iniciar Sesión</span>
+                <span class="formulario-titulo">Iniciar Sesión</span>
 
                 <label for="usuario">
-                    <input id="usuario" type="text" placeholder="Tu Usuario">
+                    <input class="formulario-input formulario-input_text formulario-input_text-1" id="usuario" type="text" placeholder="Tu Usuario">
                 </label>
 
                 <label for="contrasena">
-                    <input id="contrasena" type="password" placeholder="Tu Contraseña">
+                    <input class="formulario-input formulario-input_text formulario-input_text-2" id="contrasena" type="password" placeholder="Tu Contraseña">
                 </label>
 
                 <div class="formulario_utilidades">
@@ -31,12 +35,12 @@
                         <label for="recordarme">Recordarme</label>
                     </div>
 
-                    <a href="#">¿Olvidaste tu contraseña?</a>
+                    <a href="#" class="formulario-link">¿Olvidaste tu contraseña?</a>
                 </div>
 
-                <input class="formulario-submit" type="submit" value="Ingresar">
+                <input class="formulario-input formulario-submit" type="submit" value="Ingresar">
 
-                <span>¿No tienes una cuenta? <a href="#">Regístrate</a></span>
+                <span>¿No tienes una cuenta? <a href="#" class="formulario-link formulario-link_last">Regístrate</a></span>
 
             </form>
         </div>

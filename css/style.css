@@ -38,7 +38,7 @@ label {
     justify-content: center;
     align-items: center;
 
-    background-image: url(../img/fondo1.jpg);
+    background-image: url(../img/star.webp);
     background-position: center;
     background-size: cover;
     /* Cubre la imagen en el espacio que tenga, contain: mantiene la imagen sin recortes */
@@ -57,6 +57,7 @@ label {
     font-family: var(--fuentePrincipal);
     font-size: 1.6rem;
     color: var(--blanco);
+    text-align: center;
 
     /* VISUAL EFFECTS */
     padding: 3.5rem;
@@ -150,6 +151,11 @@ label {
 
 .recordarme {
     display: flex;
+    align-items: center;
+}
+
+.formulario_utilidades a { /* Olvidaste tu contraseña */
+    text-align: right;
 }
 
 .formulario-link {
